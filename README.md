@@ -17,7 +17,7 @@ Este repositório reúne os exercícios práticos de HTML e CSS feitos em sala d
 
 O site está publicado via GitHub Pages:
 
-
+https://erick0yuri.github.io/APS-2-Codificacao-de-Aplicacoes-Web-HTML-e-CSS/
 
 ## Tecnologias
 
