@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: #4b2e83;
+    color: #fff;
+    padding: 20px 30px;
+    overflow: hidden;
+}
+
+.titulo-header {
+    float: left;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 0.95em;
+    color: #e0d5f5;
+}
+
+header .logo {
+    float: right;
+    width: 130px;
+    background-color: #fff;
+    padding: 6px 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 960px;
+    margin: 30px auto;
+}
+
+.capitulo {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: 5px solid #f28c28;
+}
+
+.capitulo + .capitulo {
+    border-left: none;
+}
+
+.capitulo-grande {
+    clear: left;
+    width: 100%;
+}
+
+.capitulo h2 {
+    color: #4b2e83;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.capitulo ul {
+    list-style: none;
+}
+
+.capitulo ul li {
+    border-top: 1px solid #ddd;
+}
+
+.capitulo ul li:first-child {
+    border-top: none;
+}
+
+.capitulo ul li a {
+    display: block;
+    padding: 8px 4px;
+    color: #4b2e83;
+    text-decoration: none;
+    font-size: 0.95em;
+}
+
+.capitulo ul li a:hover {
+    color: #f28c28;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4b2e83;
+    color: #e0d5f5;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85em;
+}
